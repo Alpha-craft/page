@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="dist/css/bootstrap.css">
+    <link rel="stylesheet" href="dist/css/bootstrap-grid.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&family=Mukta&display=swap');
+        *{
+            margin: 0;
+            font-family: 'Mukta', sans-serif;
+        }
+        .jumbotron{
+            background: url("pict/bg1.jpg") no-repeat center center; 
+            -webkit-background-size: 100% 100%;
+            -moz-background-size: 100% 100%;
+            -o-background-size: 100% 100%;
+            background-size: 100% 100%;
+        }
+        h1 span:before{
+            content: '';
+            animation: anime ease infinite 12s;
+        }
+        @keyframes anime {
+            0%{
+                content: 'Saya Rahman';
+            }
+            50%{
+                -webkit-background-size: 100% 100%;
+                -moz-background-size: 100% 100%;
+                -o-background-size: 100% 100%;
+                background-size: 100% 100%;
+                content: 'Hey-Hey';
+            }
+            100%{
+                content: 'Terima kasih karena sudah menyempatkan waktu untuk membaca';
+            }
+            
+        }
+
+
+    </style>
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4">Hello,<span class="j5"></span></h1>
+            <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+            <hr class="my-4">
+            <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+            <p class="lead">
+              <a class="btn btn-succes btn-lg" href="https://getbootstrap.com/docs/4.0/components/jumbotron/" target="blank" role="button">Learn more</a>
+            </p>
+          </div>
+    </div>
+</body>
+
+</html>
